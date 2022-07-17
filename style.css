@@ -1,0 +1,142 @@
+html {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.middle {
+    margin-left: 35vw;
+    margin-right: 15vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    position: absolute;
+}
+.upper-middle {
+    background-color: #e5e7eb;
+    padding-left: 4%;
+    padding-right: 4%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: larger;
+    font-weight: 700;
+}
+
+.lower-middle {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+}
+
+.form-upper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 20px;
+    box-shadow: 0px 1px 1px black;
+    height: 30vh;
+}
+
+.form-inputs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.inputs-left, .inputs-right {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.firstname, .email, .password, .lastname, .phone, .confirmpassword{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-header {
+    font-weight: 600;
+}
+
+.form-lower {
+    background-color: #e5e7eb;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 30px;
+    padding-top: 15px;
+    margin-top: 1px;
+    height: 12vh;
+}
+
+button {
+    background-color: #596D48;
+    width: 150px;
+    font-size: medium;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border:#596D48;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 1px 1px 1px black;
+}
+
+.sidebar {
+    width: 25vw;
+    height: 100vh;
+    position: absolute;
+    margin-left: 10vw;
+}
+
+a {
+    text-decoration: none;
+    color: #596D48;
+}
+
+.head {
+    height: 10vh;
+    width: 4vw;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-top: 40vh;
+    margin-left: 10vw;
+    padding-left: 8vw;
+    display: flex;
+}
+
+.odin {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    margin-top: 40vh;
+    margin-left: 22vw;
+    height: 9vh;
+    font-family: Odin, Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 10vh;
+    color: white;
+    width: 13vw;
+    padding-top: 1vh;
+}
+
+@font-face {
+    font-family: Odin;
+    src:url(font/Norse-Bold.otf);
+}
+
+input:focus {
+    border: solid lightskyblue;
+    border-width: 3px;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px;
+    outline: none;
+}
+
+input:invalid {
+    border: solid red;
+    border-width: 3px;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px;
+    outline: none;
+}
